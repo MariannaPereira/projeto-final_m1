@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&family=Roboto:ital,wght@1,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header {
+  height: 9vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.pata {
+  height: 5vh;
+  margin-left: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  width: 20%;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inicio {
+  height: 120vh;
+  width: 100%;
+  background-image: url("./Imagens/cao1.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+}
+
+.texto1 {
+  height: 30vh;
+  width: 50%;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 580;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  position: relative;
+  left: 20rem;
+}
+.pata2 {
+  height: 18vh;
+  left: 37rem;
+  right: 37rem;
+  position: relative;
+}
+
+.center {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./Imagens/cao2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+.texto2 {
+  color: #3a342f;
+  font-size: 3.5rem;
+  margin-left: 5rem;
+  padding-top: 8rem;
+}
+.paragrafo1 {
+  color: #3a342f;
+  font-size: 2rem;
+  width: 30%;
+  margin-left: 5rem;
+}
+.botao1 {
+  height: 8vh;
+  width: 12vw;
+  color: #f4f2f3;
+  background-color: #3a342f;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 40px;
+  margin-left: 7rem;
+}
+.texto3 {
+  color: #ffffff;
+  width: 10%;
+  font-size: 3rem;
+  padding-left: 45rem;
+  padding-top: 8rem;
+}
+.paragrafo3 {
+  color: #ffffff;
+  width: 20%;
+  font-size: 1.5rem;
+  margin-left: 45rem;
+}
+.botao2 {
+  color: #000000;
+  background-color: #ffffff;
+  height: 8vh;
+  width: 12vw;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 40px;
+  margin-left: 45em;
+  margin-top: 3rem;
+}
+.final {
+  height: 120vh;
+  width: 100%;
+  background-image: url("./Imagens/cao3.png");
+  background-repeat: no-repeat;
+  background-size: 100% 120vh;
+}
+
+.apoio {
+  height: 15vh;
+  color: #fd6a9a;
+  background-color: #f4f2f3;
+  font-size: 1rem;
+  font-weight: 50;
+  padding-left: 18rem;
+}
+
+.havaianas {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 4rem;
+}
+.americanas {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 4rem;
+}
+
+footer {
+  height: 35vh;
+  background: #eb4a7b;
+}
+.comunicação,
+.sobre,
+.unidades {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 4rem;
+}
